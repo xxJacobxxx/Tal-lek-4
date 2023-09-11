@@ -12,5 +12,13 @@ public class App {
         System.out.println("kvoten är: "+ kvot);
         System.out.println("kvoten är : 0");
 
+        // Nästa del
+        Scanner subbis = new Scanner(System.in);
+        System.out.print("Ange ett substantiv: ");
+        String sub = subbis.nextLine();
+        System.out.print("Ange substantivets pluraländelse: ");
+        String end = subbis.nextLine();
+        System.out.println("En "+sub+", flera "+sub+end);
+
     }
 }
